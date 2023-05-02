@@ -20,7 +20,7 @@ function App() {
         <h2>Number of dogs who like this: {likes}</h2>
         <button onClick={updateLikes}>Add to the likes</button>
       </div>
-      <Dogs />
+      <Dogs a="b" c="3"/>
     </>
   );
 }
